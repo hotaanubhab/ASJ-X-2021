@@ -1,7 +1,10 @@
+@file:Suppress("DEPRECATION")
+
 package com.triple5.quizdown
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
+import com.triple5.quizdown.connector.OpenTrivia
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -20,5 +23,13 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
         assertEquals("com.triple5.quizdown", appContext.packageName)
+    }
+
+    @Test
+    fun getCategories() {
+        val openTrivia: OpenTrivia = OpenTrivia()
+        val categories = openTrivia.getCategories()
+        assertNotNull(categories)
+        assertTrue(categories.isNotEmpty())
     }
 }
