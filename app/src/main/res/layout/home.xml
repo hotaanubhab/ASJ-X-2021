@@ -34,6 +34,7 @@
             android:textColor="#ffffff" />
 
     <Spinner
+            android:id="@+id/spinnerCategory"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             style="@style/spinner_style"
@@ -51,6 +52,7 @@
             android:textColor="#ffffff" />
 
     <Spinner
+            android:id="@+id/spinnerDifficulty"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             style="@style/spinner_style"
@@ -59,6 +61,7 @@
             />
 
     <RadioGroup
+            android:id="@+id/radioMultipleChoice"
             android:layout_width="332dp"
             android:layout_height="29dp"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
