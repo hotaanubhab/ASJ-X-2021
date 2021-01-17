@@ -28,14 +28,14 @@
             android:text="Category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/"
+
             android:layout_gravity="center"
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
     <Spinner
             android:layout_width="match_parent"
-            android:layout_height="30dp" android:id="@+id/"
+            android:layout_height="30dp"
             style="@style/spinner_style"
             android:layout_marginHorizontal="30dp"
 
@@ -45,14 +45,14 @@
             android:text="Difficulty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/"
+
             android:layout_gravity="center"
             android:textSize="25dp"
             android:textColor="#ffffff" />
 
     <Spinner
             android:layout_width="match_parent"
-            android:layout_height="30dp" android:id="@+id/"
+            android:layout_height="30dp"
             style="@style/spinner_style"
             android:layout_marginHorizontal="30dp"
 
@@ -71,20 +71,20 @@
                 android:buttonTint="#ffffff"
                 android:text="Multiple Choice"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/" android:layout_weight="1"/>
+                android:layout_height="wrap_content"  android:layout_weight="1"/>
         <RadioButton
 
                 android:textColor="#ffffff"
                 android:buttonTint="#ffffff"
                 android:text="True or False"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/" android:layout_weight="1"/>
+                android:layout_height="wrap_content"  android:layout_weight="1"/>
     </RadioGroup>
     <Button
             android:text="START"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:id="@+id/"
+
            android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
 
