@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "selected Id = $selectedId")
 
         val spinnerDiff : Spinner = findViewById(R.id.spinnerDifficulty)
-        val selectedDiff = spinnerDiff.selectedItem.toString()
+        val selectedDiff = spinnerDiff.selectedItem.toString().toLowerCase()
         // pass the selected category and difficulty as extra params with the intent
         // also pass the selected difficulty
         val clazz = if (findViewById<RadioButton>(R.id.radioMultipleChoice).isChecked) {
