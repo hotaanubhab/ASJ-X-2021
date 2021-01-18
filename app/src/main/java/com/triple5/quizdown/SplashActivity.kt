@@ -13,7 +13,7 @@ import androidx.core.app.ActivityCompat
 
 class SplashActivty : AppCompatActivity() {
     object Staticated {
-        var SPLASH_TIME_OUT = 2000
+        var SPLASH_TIME_OUT = 20000
     }
 
 
