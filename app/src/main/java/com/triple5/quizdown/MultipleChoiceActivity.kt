@@ -188,7 +188,7 @@ class  MultipleChoiceActivity : AppCompatActivity() {
     }
 
     private fun clearRadioAnswer(radio : RadioButton) {
-        radio.setBackgroundColor(Color.WHITE)
+        radio.setBackgroundColor(Color.TRANSPARENT)
         radio.isChecked = false
         radio.isEnabled = true
     }
