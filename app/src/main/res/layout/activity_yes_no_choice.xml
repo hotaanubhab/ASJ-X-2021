@@ -5,6 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradient"
         tools:context=".YesNoChoiceActivity">
 
     <ImageView
@@ -22,6 +23,8 @@
             app:srcCompat="@drawable/logo" android:contentDescription="@string/logo"/>
 
     <TextView
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/game_info"
@@ -34,6 +37,8 @@
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/categoryName"/>
     <TextView
             android:text="@string/question"
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/question" android:layout_marginTop="8dp"
@@ -59,6 +64,8 @@
             android:visibility="gone"
             />
     <TextView
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:text="Category Name"
             android:layout_width="wrap_content"
             android:layout_height="18dp"

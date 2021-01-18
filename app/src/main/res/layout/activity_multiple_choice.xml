@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#333333"
+        android:background="@drawable/gradient"
         tools:context=".MultipleChoiceActivity">
     <ImageView
             android:id="@+id/imageView"
@@ -30,12 +30,17 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp"
             android:text="info"
+
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:contentDescription="content @android:string/fingerprint_icon_content_description"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/categoryName"/>
     <TextView
             android:text="@string/question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:id="@+id/question" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/game_info" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="24dp" android:layout_marginRight="24dp"
@@ -53,21 +58,33 @@
             android:id="@+id/radioGroup">
         <RadioButton
                 android:text="@string/answer1"
+                android:buttonTint="#ffffff"
+                android:textColor="#ffffff"
+                app:fontFamily="@font/allerta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/answer0" android:layout_weight="1"
                 android:onClick="radioButtonClicked" android:layout_marginBottom="6dp" android:layout_marginTop="4dp"/>
         <RadioButton
                 android:text="@string/answer2"
+                android:buttonTint="#ffffff"
+                android:textColor="#ffffff"
+                app:fontFamily="@font/allerta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/answer1" android:layout_weight="1"
                 android:onClick="radioButtonClicked" android:layout_marginBottom="6dp"/>
         <RadioButton
                 android:text="@string/answer3"
+                android:buttonTint="#ffffff"
                 android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                app:fontFamily="@font/allerta"
                 android:layout_height="wrap_content" android:id="@+id/answer2" android:layout_weight="1"
                 android:onClick="radioButtonClicked" android:layout_marginBottom="6dp"/>
         <RadioButton
                 android:text="@string/answer4"
+                android:buttonTint="#ffffff"
+                android:textColor="#ffffff"
+                app:fontFamily="@font/allerta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:id="@+id/answer3" android:layout_weight="1"
                 android:onClick="radioButtonClicked" android:layout_marginBottom="4dp"/>
@@ -91,6 +108,8 @@
             android:visibility="gone"/>
     <TextView
             android:text="Category Name"
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"
             android:layout_width="wrap_content"
             android:layout_height="18dp"
             android:id="@+id/categoryName"
