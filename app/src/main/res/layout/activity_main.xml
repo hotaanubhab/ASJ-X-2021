@@ -15,6 +15,7 @@
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:src="@drawable/logo"
+            android:contentDescription="@string/logo"
            />
 
     <TextView
@@ -29,7 +30,7 @@
             android:text="Category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:id="@+id/textView"
             android:layout_gravity="center"
             android:textSize="25dp"
             android:textColor="#ffffff" />
@@ -47,7 +48,7 @@
             android:text="Difficulty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:id="@+id/textView2"
             android:layout_gravity="center"
             android:textSize="25dp"
             android:textColor="#ffffff" />
@@ -97,11 +98,12 @@
                 android:layout_height="wrap_content"  android:layout_weight="1"/>
     </RadioGroup>
     <Button
-            android:text="START"
+            android:text="Start Quiz"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-
+            android:id="@+id/buttonStartQuiz"
            android:layout_gravity="center"
+            android:onClick="startGame"
             android:layout_marginTop="10dp"/>
 
 </LinearLayout>
