@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/title"
             android:layout_gravity="center"
-            android:textSize="30dp"
+            android:textSize="40dp"
             android:textColor="#ffffff" />
     <TextView
             android:text="Category"
