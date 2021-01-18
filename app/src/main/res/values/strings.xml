@@ -3,7 +3,7 @@
     <string name="logo">Logo</string>
     <string name="category">Category</string>
     <string name="difficulty">Difficulty</string>
-    <string name="tart">Start Quiz</string>
+    <string name="start">Start Quiz</string>
     <string name="multipleChoice">Multiple Choice</string>
     <string name="yesNo">Yes/No Answer</string>
     <string name="optTrue">Yes, true</string>
