@@ -5,6 +5,7 @@ import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Gravity
 import android.view.View
 import android.widget.*
 import com.triple5.quizdown.connector.Difficulty
@@ -12,6 +13,7 @@ import com.triple5.quizdown.connector.MultipleChoice
 import com.triple5.quizdown.connector.OpenTrivia
 import kotlinx.android.synthetic.main.activity_multiple_choice.*
 import java.lang.ref.WeakReference
+
 
 private const val TAG = "MultipleChoiceActivity"
 
@@ -45,7 +47,6 @@ class  MultipleChoiceActivity : AppCompatActivity() {
         answer2.text = ""
         answer3.text = ""
         updateInfoText(this, difficulty, score)
-
         //load multiple choice for category and difficulty in asynch task
         val task = AsynchRetrieveMultipleChoice(this, categoryId, difficulty)
         task.execute(categoryId)
@@ -73,7 +74,7 @@ class  MultipleChoiceActivity : AppCompatActivity() {
             markRadioAnswer(this.findViewById(R.id.answer3), 3)
 
             if (ok) {
-                Toast.makeText(this, "Correct :)", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Correct!", Toast.LENGTH_LONG).show()
                 score += when (difficulty) {
                     Difficulty.easy -> 5
                     Difficulty.medium -> 7
@@ -83,7 +84,8 @@ class  MultipleChoiceActivity : AppCompatActivity() {
                 updateInfoText(this, difficulty, score)
 
             } else {
-                Toast.makeText(this, "Wrong :( -- Right answer is ´${multipleChoice.correctAnswer}´", Toast.LENGTH_LONG).show()
+
+                Toast.makeText(this, "Wrong: Right answer is ´${multipleChoice.correctAnswer}´", Toast.LENGTH_LONG).show()
             }
 
             this.findViewById<Button>(R.id.nextButton).isEnabled = true

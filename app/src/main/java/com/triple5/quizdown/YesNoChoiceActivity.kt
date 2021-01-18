@@ -48,7 +48,7 @@ class YesNoChoiceActivity : AppCompatActivity() {
                 view.id == R.id.buttonFalse && !yesNoQuestion.isTrue) {
 
                 findViewById<ImageButton>(view.id).setBackgroundColor(Color.GREEN)
-                Toast.makeText(this, "Correct :)", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Correct!", Toast.LENGTH_LONG).show()
                 score += when (difficulty) {
                     Difficulty.easy -> 5
                     Difficulty.medium -> 7
@@ -57,7 +57,7 @@ class YesNoChoiceActivity : AppCompatActivity() {
 
             }  else {
                 findViewById<ImageButton>(view.id).setBackgroundColor(Color.RED)
-                Toast.makeText(this, "Wrong :)", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Wrong", Toast.LENGTH_LONG).show()
 
             }
 
