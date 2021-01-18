@@ -11,6 +11,7 @@ import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.triple5.quizdown.connector.OpenTrivia
+import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.ref.WeakReference
 
 private const val TAG = "MainActivity";
@@ -30,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.home)
+        setContentView(R.layout.activity_main)
 
         // load categories and populate with async Task
         //  and token
