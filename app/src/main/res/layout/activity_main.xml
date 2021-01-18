@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#333333"
-        android:orientation="vertical">
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@drawable/gradient">
 
 
     <ImageView
@@ -14,78 +16,103 @@
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:src="@drawable/logo"
+            android:contentDescription="@string/logo"
            />
 
     <TextView
+
             android:text="Quiz Down"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/title"
             android:layout_gravity="center"
             android:textSize="40dp"
-            android:textColor="#ffffff" />
+
+            android:textColor="#ffffff"
+            app:fontFamily="@font/anton" />
+
     <TextView
             android:text="Category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:id="@+id/textView"
             android:layout_gravity="center"
             android:textSize="25dp"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"/>
 
     <Spinner
+            android:id="@+id/spinnerCategory"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             style="@style/spinner_style"
             android:layout_marginHorizontal="30dp"
-
+            app:fontFamily="@font/allerta"
             />
 
     <TextView
             android:text="Difficulty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:id="@+id/textView2"
             android:layout_gravity="center"
             android:textSize="25dp"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            app:fontFamily="@font/allerta"/>
 
     <Spinner
+            android:id="@+id/spinnerDifficulty"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             style="@style/spinner_style"
             android:layout_marginHorizontal="30dp"
-
+            app:fontFamily="@font/allerta"
             />
 
+    <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
     <RadioGroup
+            android:id="@+id/radioGroup2"
             android:layout_width="332dp"
             android:layout_height="29dp"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             android:layout_gravity="center"
-             android:orientation="horizontal"
-
-            >
+             android:orientation="horizontal">
         <RadioButton
                 android:textColor="#ffffff"
                 android:buttonTint="#ffffff"
                 android:text="Multiple Choice"
+                android:id="@+id/radioMultipleChoice"
                 android:layout_width="wrap_content"
+                app:fontFamily="@font/allerta"
                 android:layout_height="wrap_content"  android:layout_weight="1"/>
         <RadioButton
 
                 android:textColor="#ffffff"
                 android:buttonTint="#ffffff"
                 android:text="True or False"
+                android:id="@+id/radioYesNo"
+                app:fontFamily="@font/allerta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"  android:layout_weight="1"/>
     </RadioGroup>
     <Button
-            android:text="START"
+            android:text="Start Quiz"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-
+            android:id="@+id/buttonStartQuiz"
            android:layout_gravity="center"
+            android:onClick="startGame"
             android:layout_marginTop="10dp"/>
 
 </LinearLayout>

@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Quizdown</string>
+    <string name="logo">Logo</string>
+    <string name="category">Category</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="start">Start Quiz</string>
+    <string name="multipleChoice">Multiple Choice</string>
+    <string name="yesNo">Yes/No Answer</string>
+    <string name="optTrue">Yes, true</string>
+    <string name="optFalse">No, false</string>
+
+
+    <string name="question">Which documentary film maker wrote and starred in the film &quot;My Scientology Movie&quot;
+        which first debuted in 2015?
+    </string>
+    <string name="answer1">Louis Theroux</string>
+    <string name="answer2">Errol Morris</string>
+    <string name="answer3">Joe Berlinger</string>
+    <string name="answer4">Adam Curtis</string>
+    <string name="next">Next</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
 </resources>
