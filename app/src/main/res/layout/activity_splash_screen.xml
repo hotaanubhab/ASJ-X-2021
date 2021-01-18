@@ -12,17 +12,7 @@
             android:id="@+id/logo"
         android:minHeight="0dp"
         android:minWidth="0dp" />
-    <TextView
-
-            android:text="Quiz Down"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/title"
-            android:layout_centerHorizontal="true"
-            android:textSize="35dp"
-            android:layout_below="@+id/logo"
-            android:textColor="#ffffff"
-            android:fontFamily="@font/anton" />
+ 
 
 
 </RelativeLayout>
