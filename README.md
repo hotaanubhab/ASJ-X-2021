@@ -1,5 +1,5 @@
 <h1 style=" text-align: center;">Quiz Down</h1>
-
+Screenshots in screenshots folder.
 <h2>The problem Quiz Down solves</h2>
 
 
@@ -30,9 +30,9 @@ Anyone willing to enhance their knowledge and learn new things can use Quiz Down
 
 <br>
 
-Links
+Links https://github.com/hotaanubhab/ASJ-X-2021
 
-Video Demo
+Video Demo https://youtu.be/s93FHG8ZIqk
 <br>
 # ASJ-X-2021
 DSC KIIT's ASJ X 2021 Project 
