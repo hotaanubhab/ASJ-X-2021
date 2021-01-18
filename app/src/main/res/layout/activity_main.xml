@@ -74,18 +74,17 @@
             android:layout_marginTop="8dp"
             android:visibility="gone"/>
     <RadioGroup
-            android:id="@+id/radioMultipleChoice"
+            android:id="@+id/radioGroup2"
             android:layout_width="332dp"
             android:layout_height="29dp"
             android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             android:layout_gravity="center"
-             android:orientation="horizontal"
-
-            >
+             android:orientation="horizontal">
         <RadioButton
                 android:textColor="#ffffff"
                 android:buttonTint="#ffffff"
                 android:text="Multiple Choice"
+                android:id="@+id/radioMultipleChoice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"  android:layout_weight="1"/>
         <RadioButton
@@ -93,6 +92,7 @@
                 android:textColor="#ffffff"
                 android:buttonTint="#ffffff"
                 android:text="True or False"
+                android:id="@+id/radioYesNo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"  android:layout_weight="1"/>
     </RadioGroup>
