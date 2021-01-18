@@ -3,13 +3,13 @@
     <string name="logo">Logo</string>
     <string name="category">Category</string>
     <string name="difficulty">Difficulty</string>
-    <string name="start">Start Quiz</string>
+    <string name="tart">Start Quiz</string>
     <string name="multipleChoice">Multiple Choice</string>
     <string name="yesNo">Yes/No Answer</string>
     <string name="optTrue">Yes, true</string>
     <string name="optFalse">No, false</string>
 
-    <string name="powered_by">Powered by OpenTrivia Database</string>
+
     <string name="question">Which documentary film maker wrote and starred in the film &quot;My Scientology Movie&quot;
         which first debuted in 2015?
     </string>
@@ -32,8 +32,8 @@
     </string-array>
 
     <string-array name="difficulty_array">
-        <item>easy</item>
-        <item>medium</item>
-        <item>hard</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
     </string-array>
 </resources>
