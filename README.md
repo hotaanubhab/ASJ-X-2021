@@ -6,7 +6,7 @@
 Quiz Down is an educational app that aims to make learning more fun and provides a platform for the user to test their 
 wits. Quiz Down uses the Open Trivia API which is an almost unending collection of questions on topics ranging from
 General Knowledge to anime and manga. The option to change the difficulty of the questions makes for a more tailored and challenging experience.
-Anyone willing to enhance their knowledge and learn new things can use Quiz Down. It has a simple and intuitive design. 
+Anyone willing to enhance their knowledge and learn new things can use Quiz Down. It has a simple and intuitive design which makes it acceptable to users of any range and generations.
 
 <br>
 <h2>Problems we faced</h2>
@@ -36,5 +36,5 @@ Video Demo
 <br>
 # ASJ-X-2021
 DSC KIIT's ASJ X 2021 Project 
-Quiz App- Quiz Down - By Triple_5
+Quiz App- 'Quiz Down' - By Triple_5
 
