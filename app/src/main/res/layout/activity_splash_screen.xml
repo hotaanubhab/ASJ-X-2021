@@ -12,7 +12,7 @@
             android:id="@+id/logo"
         android:minHeight="0dp"
         android:minWidth="0dp" />
- 
+
 
 
 </RelativeLayout>
