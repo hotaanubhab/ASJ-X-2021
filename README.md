@@ -1,5 +1,12 @@
 <h1 style=" text-align: center;">Quiz Down</h1>
-Screenshots in screenshots folder.
+
+## Screenshots
+<img src="screenshots/screenshot_1.png" width="160">
+<img src="screenshots/screenshot_2.png" width="160">
+<img src="screenshots/screenshot_3.png" width="160">
+<img src="screenshots/screenshot_4.png" width="160">
+<img src="screenshots/screenshot_5.png" width="160">
+<img src="screenshots/screenshot_6.png" width="160">
 <h2>The problem Quiz Down solves</h2>
 
 
@@ -37,4 +44,9 @@ Video Demo https://youtu.be/s93FHG8ZIqk
 # ASJ-X-2021
 DSC KIIT's ASJ X 2021 Project 
 Quiz App- 'Quiz Down' - By Triple_5
+
+# Members
+Anubhab Hota<br>
+Prabhav Tewari<br>
+Aryan Raj Banerjee<br>
 
